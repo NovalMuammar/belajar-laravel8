@@ -7,6 +7,6 @@
         </h2>
         <h5>By: {{ $post['author'] }}</h5>
         <p>{{ $post['body'] }}</p>
-        <a href="/blog" class="badge badge-primary">Back to post &laquo;</a>
+        <a href="/posts" class="badge badge-primary">Back to post &laquo;</a>
     </article>
 @endsection
